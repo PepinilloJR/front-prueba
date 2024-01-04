@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <BrowserRouter>
+        <BrowserRouter basename='/front-prueba'>
           <RutasCliente></RutasCliente>
         </BrowserRouter>
       </div>
