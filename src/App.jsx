@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <BrowserRouter basename='/front-prueba'>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
           <RutasCliente></RutasCliente>
         </BrowserRouter>
       </div>

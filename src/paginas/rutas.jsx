@@ -7,7 +7,7 @@ export function RutasCliente() {
     
     return (<>
         <Routes>
-            <Route path="/front-prueba" element={<Home/>}></Route>
+            <Route exact path="/" element={<Home/>}></Route>
             <Route path="/get" element={<GetImagen/>}></Route>
             <Route path="/post" element={<PostImagen/>}></Route>
         </Routes>
