@@ -4,7 +4,7 @@ import { Menu } from "./menu";
 async function recibirImagenes(id) {
     try {
         let response
-        if (id != "") {
+        if (id !== "") {
             response = await fetch(`https://repositorioloco-dev-mpaq.2.us-1.fl0.io/imagenes/${id}`) 
         } else {
             response = await fetch('https://repositorioloco-dev-mpaq.2.us-1.fl0.io/imagenes/-1')
