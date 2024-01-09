@@ -1,6 +1,6 @@
 //import { useState } from 'react'
 import './App.css'
-import { HashRouter  } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { RutasCliente } from './paginas/rutas.jsx'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-        <HashRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <RutasCliente></RutasCliente>
         </HashRouter>
       </div>
